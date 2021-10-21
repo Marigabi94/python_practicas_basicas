@@ -1,3 +1,8 @@
+"""
+Practica #2 Variables y tipo de datos
+
+"""
+
 primera_variable = 'Esta es mi primera variable'
 print(primera_variable)
 segunda_variable = 100
