@@ -21,3 +21,14 @@ pos_final = n-1, Donde n: Numero de elementos de la lista
 """
 
 print(listaRedes[3], '\n', lista3[1][0], '\n', lista4[1][2])
+
+"""
+
+
+Redefinir lista3
+
+
+"""
+lista3.append(20)
+
+print(lista3)
