@@ -33,3 +33,37 @@ print(resultado)
 # agregar una nueva clave y dato
 diccionario[4]= "nuevo"
 print(diccionario)
+
+#forma 1 de recorrer un diccionario
+for clave,valor in diccionario.items():
+    print("{0} --> {1}".format(clave,valor))
+
+
+#forma 2 de recorrer un diccionaro con este se valida en caso de error
+for clave in diccionario:
+    resultado = diccionario.get(clave, "No exite un valor asociado a esta clave")
+    print(resultado)
+    
+
+#guardar los valores en una variable
+valores = diccionario.values()
+print(valores)
+
+#recorrer los valores
+for valor in valores:
+    print(valor)
+    
+
+
+# o en resumen:
+for valor in diccionario.values():
+    print(valor)
+    
+
+
+# imprimir solo las claves
+for clave in diccionario.keys:
+    print(clave)
+    
+
+    
