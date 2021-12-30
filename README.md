@@ -1,5 +1,7 @@
 # :snake: Colección de ejercicios básicos en Python :snake:
-[![](https://img.shields.io/github/last-commit/marigabi94/python_practicas_basicas?style=plastic)]()
+[![](https://img.shields.io/github/last-commit/marigabi94/python_practicas_basicas?style=plastic&logo=github&logoColor=white&labelColor=101010)]()
+
+
 </br>
 Ejercicios básicos realizados durante el refuerzo de las bases lógicas y buenas practicas de python. 
 
